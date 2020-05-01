@@ -1,3 +1,12 @@
-p {
-  font-family: Lato;
+/* You can add global styles to this file, and also import other style files */
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+@import url('https://unpkg.com/ngx-bootstrap/datepicker/bs-datepicker.css');
+body {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.app .bs-datepicker-body table td:not(.week) {
+  pointer-events: none;
 }
